@@ -12,13 +12,14 @@ img{
 /* seletori classi */
 .contenitore{
     background-color: grey;
-    width: 60%;
+    width: 800px;
     margin: 8vh auto;
 }
 
 .carta{
     width: 33%;
     position: relative;
+    display: inline-block;
 }
 
 /* copertina prodotto */
