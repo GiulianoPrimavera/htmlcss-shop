@@ -62,3 +62,12 @@ img{
     color: black;
     text-decoration: line-through;
 }
+/* fine descrizione prodotto */
+
+/* animazioni hover */
+.immagine_primo_piano{
+    position: absolute;
+}
+.copertina_prodotto:hover .immagine_primo_piano{
+    display: none;
+}
