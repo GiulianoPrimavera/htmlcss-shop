@@ -11,9 +11,9 @@ img{
 
 /* seletori classi */
 .contenitore{
-    background-color: grey;
     width: 800px;
     margin: 8vh auto;
+    font-family: 'Rubik', sans-serif;
 }
 
 .carta{
