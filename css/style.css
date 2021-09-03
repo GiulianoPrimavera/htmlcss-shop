@@ -35,7 +35,7 @@ img{
     font-size: 40px;
     padding: 0 12px;
     margin-top: 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 .sconto{
     bottom: 0;
@@ -52,6 +52,9 @@ img{
 .sfondo_verde{
     background-color: green;
 }
+.immagine_primo_piano{
+    position: absolute;
+}
 /* fine copertina prodotto */
 
 /* descrizione prodotto */
@@ -65,9 +68,14 @@ img{
 /* fine descrizione prodotto */
 
 /* animazioni hover */
-.immagine_primo_piano{
-    position: absolute;
-}
 .copertina_prodotto:hover .immagine_primo_piano{
     display: none;
+}
+
+.cuore:hover {
+    background-color: red;
+}
+.cuore:active{
+    background-color: orange;
+    font-size: 35px;
 }
