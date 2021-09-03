@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* selettori generici */
+img{
+    width: 100%;
+}
+
+/* seletori classi */
+.contenitore{
+    background-color: grey;
+    width: 60%;
+    margin: 8vh auto;
+}
+
+.carta{
+    width: 33%;
+    position: relative;
+}
+
+/* copertina prodotto */
+.copertina_prodotto{
+    position: relative;
+    height: auto;
+}
+.cuore, .sconto{
+    position: absolute;
+}
+.cuore{
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    padding: 0 12px;
+    margin-top: 20px;
+    background-color: white;
+}
+.sconto{
+    bottom: 0;
+    left: 0;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.sconto span{
+    padding: 4px;
+}
+.sfondo_rosso{
+    background-color: rgba(255, 0, 0, 0.6);;
+}
+.sfondo_verde{
+    background-color: green;
+}
+/* fine copertina prodotto */
+
+/* descrizione prodotto */
+.descrizione p:last-child{
+    color: rgba(255, 0, 0, 0.6);
+}
+.descrizione p:last-child span{
+    color: black;
+    text-decoration: line-through;
+}
